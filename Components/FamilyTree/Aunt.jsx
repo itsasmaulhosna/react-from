@@ -1,12 +1,12 @@
 import React from 'react';
 import Cusin from './Cusin';
 
-const Aunt = () => {
+const Aunt = ({asset}) => {
     return (
         <div>
             <h3>Aunt</h3>
             <section className='flex'>
-                <Cusin name='Sifa'></Cusin>
+                <Cusin asset={asset} name='Sifa'></Cusin>
                 <Cusin name='Hima'></Cusin>
             </section>
         </div>
